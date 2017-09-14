@@ -1,0 +1,5 @@
+class Solution(object):
+    def findMin(self, nums):
+        self.nums = nums
+        minimum = min(self.nums)
+        return minimum
